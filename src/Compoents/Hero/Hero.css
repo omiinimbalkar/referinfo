@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/bg.png');
+    background: linear-gradient(rgba(0, 41, 58, 0.649),rgba(155, 151, 186, 0.7)), url('../../assets/work.png');
     background-size: cover;
     background-position: center;
     color: aliceblue;

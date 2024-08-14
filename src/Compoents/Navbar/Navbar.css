@@ -13,7 +13,7 @@ nav{
 }
 .R
 {
-    width: 180px;
+    width: 200px;
 }
 nav ul li{
     display: inline-block;
@@ -24,7 +24,7 @@ nav ul li{
 }
 .dark-nav
 {
-    background: rgb(90, 49, 237);
+    background: rgba(0, 0, 0, 0.507);
     transition: 1s;
 }
 .menu-icon{

@@ -1,5 +1,9 @@
 import React from 'react'
 import './Contact.css'
+import insta from '../../assets/social.png'
+import gmail from '../../assets/gmail.png'
+import phone from '../../assets/telephone.png'
+import adress from '../../assets/adress.png'
 const Contact = () => {
     const [result, setResult] = React.useState("");
 
@@ -37,11 +41,11 @@ const Contact = () => {
             are important to us we strive to provide exceptional service to our Company 
         </p>
         <ul>
-            <li><img src="https://th.bing.com/th/id/OIP.UucVRWGPR85penwOoAXSngHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="phone" />+91 95795 15126
+            <li><img src={phone} alt="phone" />+91 95795 15126
             ,+91 755 917 2475</li>
-            <li><img src="https://th.bing.com/th/id/OIP.2vUIhn5smzWehchkpgolMgHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="email" />nishantspatil04@gmail.com
-            ,sawantparth303@gmail.com</li>
-            <li><img src="https://th.bing.com/th/id/OIP.AmyziwaCekmkaQf1fkM5-wHaHa?w=601&h=601&rs=1&pid=ImgDetMain" alt="adress" />Adrresss</li>
+            <li><img src={gmail} alt="email" /><a href="techunir5@gmail.com">techunir5@gmail.com</a></li>
+            <li><img src={adress} alt="adress" />Adrresss</li>
+            <li><img src={insta} alt="insta" /><a href="https://www.instagram.com/spotezypay10?igsh=MTdsa2VkZGdpeG52MQ==">spotezpay</a></li>
         </ul>
        </div>
        <div className='contct-col'>
